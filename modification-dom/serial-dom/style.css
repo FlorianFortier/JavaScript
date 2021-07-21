@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ff3a3a;
+    color: #ff0;
+    font-weight: bold;
+    font-family: Impact, monospace;
+    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 800px;
+}
+
+main > * {
+    flex: 1;
+    flex-basis: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    animation: shake infinite alternate ease-in-out 10s;
+
+    max-width: 150px;
+    filter: drop-shadow(5px 5px 0 rgba(0, 0, 0, 0.2));
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    margin: 8px;
+
+    border-top: 4px dotted #ff0;
+}
+
+#serial-input {
+    min-width: 150px;
+    text-align: center;
+}
+
+@keyframes shake {
+    0% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}

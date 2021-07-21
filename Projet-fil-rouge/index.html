@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>touitteur</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/helpers.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+</head>
+
+<body>
+    <header>
+        <div class="container row jtcn algi">
+            <img src="img/126151.png" alt="tarkov Ruski tvitter ">
+        </div>
+    </header>
+    <div class="overlap" hidden>
+        <div id="modal">
+            <h2>Commentaire du touit N°xxxx</h2>
+        <div class="modal-content">
+<!--            <p>Blah blah blah blah blah</p>-->
+           <!--            <article class="touit">-->
+<!--                <p class="msg">Le message</p>-->
+<!--                <p class="name">L'auteur</p>-->
+<!--            </article>-->
+<!--            <div class="comments-touit-infos">-->
+<!--                <p>0 like(s)</p>-->
+<!--                <p>0 comment(s)</p>-->
+<!--            </div>-->
+<!--            <hr/>-->
+<!--            <div class="comments-zone">-->
+<!--                <p><strong>Nom : </strong><span>Commentaire !!!</span></p>-->
+<!--                <p><strong>Nom : </strong><span>Commentaire !!!</span></p>-->
+<!--                <p><strong>Nom : </strong><span>Commentaire !!!</span></p>-->
+<!--                <p><strong>Nom : </strong><span>Commentaire !!!</span></p>-->
+<!--            </div>-->
+<!--            <hr/>-->
+
+<!--            <form>-->
+<!--                <div class="form-control">-->
+<!--                    <label for="cmt-nickname">Votre pseudo :</label>-->
+<!--                    <input type="text" id="cmt-nickname" name="nickname" placeholder="xXx_B0g0ssDu37_xXx" maxlength="16"/>-->
+<!--                </div>-->
+<!--                <div class="form-control">-->
+<!--                    <label for="cmt-comment">Votre commentaire :</label>-->
+<!--                    <input type="text" id="cmt-comment" name="comment" placeholder="Blah blah blah blah blah blah blah blah..."-->
+<!--                           maxlength="256"/>-->
+<!--                </div>-->
+<!--                <input type="submit"/>-->
+<!--            </form>-->
+        </div>
+            <button>Ok</button>
+        </div>
+    </div>
+    <section class="touits">
+            <div class="row column">
+                <form action="" method="GET" class="form row column algi">
+                    <div class="fields row column">
+                        <label for="name" class="label-form">Name / Pseudo :</label>
+                        <input type="text" name="name" placeholder="Jean-mich" id="name">
+                    </div>
+                    <div class="fields row column">
+                        <label class="label-form" for="text-area">Type your message</label >
+                        <textarea name="text-area" id="text-area" cols="60" rows="5" placeholder="Message here..."></textarea>
+                    </div>
+                    <div class="btn-submit row column">
+                        <button class="submit-btn" type="submit" onclick="">Submit</button>
+                    </div>
+                </form>
+            
+                <div class="container">
+                    <label for="feed-content" class="row talgi jtcn ">russkoye soobshcheniye: </label>
+                    <div class=" flex-start row algi jtcn ">
+                        <div class="feed row">
+                            <div class="row column talgi box-d">
+                                <label for="Hot twit du moment :" class="label-trends row">Hot twit du moment : </label>
+                                <div class="trends row column">
+
+                                </div>
+                            </div>
+                            <div class="feed-content row  column jtcn algi talgi new-div">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+    </section>
+    <script src="js/addTouits.js"></script>
+    <script src="js/API.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+</html>

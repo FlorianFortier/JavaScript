@@ -1,0 +1,48 @@
+.overlap {
+    position: fixed;
+    background-color:  rgba(0,0,0, 0.4);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+#modal {
+    background-color: rgb(172, 152, 115);
+    min-width: 320px;
+    max-width: 80%;
+    min-height: 80px;
+    max-height: 80%;
+
+    padding: 12px;
+}
+.overlap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.overlap[hidden] {
+    display: none;
+}
+
+#modal {
+    min-width: 320px;
+    max-width: 80%;
+    min-height: 80px;
+    max-height: 80%;
+
+    padding: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#modal h2 {
+    margin-top: 0;
+}

@@ -1,0 +1,8 @@
+button {
+    border: 0px solid;
+    background-color: rgb(97, 106, 223);
+    color: azure;
+    margin: .1rem;
+    border-radius: 20%;
+    padding: 1rem;
+}

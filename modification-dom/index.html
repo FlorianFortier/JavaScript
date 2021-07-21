@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>serial</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/helpers.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="row column input">
+        <label for="euro">Prix euro</label>
+        <input type="number" name="euro" id="euro" onkeyup="conversion()">
+        <label for="dollars">prix dollars</label>
+        <input type="number" name="dollars" id="dollars" readonly>
+    </div>
+    <form class="row column input formulaire">
+        <label for="longeur">longueur</label>
+        <input type="number" name="longeur" id="longueur" value="0">
+        <select name="unités" id="unités" class="select-one">
+            <option value="">Please choose an option</option>
+            <option value="mm">minimeter</option>
+            <option value="cm">Centimeter</option>
+            <option value="m">Meter</option>
+        </select>
+        <label for="largeur">largeur</label>
+        <input type="number" name="largeur" id="largeur" value="0">
+        <select name="unités" id="unités" class="select-two">
+            <option value="">Please choose an option</option>
+            <option value="mm">minimeter</option>
+            <option value="cm">Centimeter</option>
+            <option value="m">Meter</option>
+        </select>
+        <p class="result-peri"></p>
+    </form>
+    <section class="container row talgi column">
+        <h2>Le convertisseur de température</h2>
+        <label>Température</label>
+        <input type="number" id="temperature-input" placeholder="XXX.XXX" />
+        <div id="temperature-buttons">
+            <button value="c">Convertir depuis °C</button>
+            <button value="f">Convertir depuis °F</button>
+            <button value="k">Convertir depuis K</button>
+        </div>
+        <p>Les températures :</p>
+        <ul id="temperature-results">
+            <li>Aucune info pour le moment...</li>
+            <li>Aucune info pour le moment...</li>
+            <li>Aucune info pour le moment...</li>
+        </ul>
+
+    </section>
+
+   <script src="modification.js"></script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+
+/* Typographie */
+body {
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #000;
+    background-image: url(../img/wallpaperflare.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+}
+hr {
+    width: 100%;
+}
+p {
+    color: var(--primary);
+}
+:root {
+    --primary : #9a8866;
+    --accent: #f4d59d;
+}
+.row {
+    display: flex;
+}
+.column {
+    flex-direction: column;
+}
+.algi {
+    align-items: center;
+}
+.jtcn {
+    justify-content: center;
+}
+.jtsb {
+    justify-content: space-between;
+}
+.talgi {
+    text-align: center;
+}
+.full {
+    width: 100%;
+}
+.grid {
+    display: grid;
+}
+.flex-start {
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 3rem; 
+}
+.form {
+    justify-content: flex-start;
+}
+.btn-submit {
+    margin-top: 2rem;
+}
+.submit-btn {
+    padding: 1rem;
+    background-color: var(--primary);
+    border: .1rem solid transparent;
+    color: white;
+}
+.container {
+    max-width: 113rem;
+    margin-left: auto;
+    margin-right: auto;     
+}
+.feed {
+    margin-top: 10rem;
+    background-color: rgb(26, 26, 26);
+    color: var(--primary);
+    justify-content: flex-start;
+}
+.feed label {
+    color: var(--accent);
+}
+.fields {
+    margin-bottom: 2rem;
+}
+.col {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+.like {
+    border: 0rem;
+    background-color: var(--accent);
+    color: white;
+}
+.like img {
+    min-width: 2rem;
+    
+}
+.label-form {
+    color: var(--accent);
+}
+.new-divD {
+    border: 1px solid var(--accent);
+    margin-bottom: 3.5rem;
+    box-shadow: 1px 1px 10px rgba(246, 245, 148, 0.733);
+    word-break: break-all;
+    margin-left: 10rem;
+}
+.delete-btn {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    background-color: var(--primary);
+    color: white;
+}
+.name-style {
+    padding-top: .5rem;
+    color: var(--accent);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.content-style {
+    display: flex;
+    justify-content: center;
+    color: var(--primary);
+}
+.like-btn {
+    margin-top: 1rem;
+    background-color: var(--primary);
+    color: white;
+    border: 0px solid;
+}
+label {
+    justify-content: flex-start;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: var(--accent);
+}
+.label-trends {
+    text-align: center;
+    margin-right: 7rem;
+    margin-left: auto;
+}
+.box-d {
+    margin-left: auto;
+    margin-right: auto;
+}
+.influ {
+    background-color: var(--accent);
+    color: #000;
+}
+.comment-button {
+    background-color: transparent;
+    border: 0ch;
+}
+.msg,
+.name,
+.comments-touit-infos p,
+.comments-zone p {
+    color: black;
+}
+input {
+    color: var(--accent);
+    background-color: rgba(0, 0, 0, .4);
+    border: 1px solid #f4d59d;
+}
+textarea {
+    color: var(--accent);
+    background-color: rgba(0, 0, 0, .4);
+    border: 1px solid #f4d59d;
+}
+.erreur {
+    color: var(--accent);
+}
